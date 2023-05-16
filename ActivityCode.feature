@@ -14,7 +14,7 @@ Feature: FEATURE Create Custom Activity Code
     Scenario: Connection
         # #############################################################################
 
-        # Connection. Cambio 11
+        # Connection.
         Given the user is logged into Sage X3 with "param:loginType" using user name "param:loginUserName" and password "param:loginPassword"
         When the user selects the "param:endPointName1" entry on endpoint panel
         Then the "param:endPointName1" endpoint is selected
